@@ -137,28 +137,12 @@ button.focused {
 	color: #d18017;
 }
 
-#memory {
-	color: #fcfcfc;
-}
-
-#cpu {
-	color: #fcfcfc;
-}
-
-#temperature {
-	color: #fcfcfc;
-}
-
 #temperature.warning {
 	color: #d1c117;
 }
 
 #temperature.critical {
 	color: #d11717;
-}
-
-#battery {
-	color: #fcfcfc;
 }
 
 #battery.warning {

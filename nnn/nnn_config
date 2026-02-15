@@ -1,0 +1,29 @@
+
+# NNN.config
+#=========================================================================
+
+
+
+
+
+#=========================================================================
+# Environment Variables ==================================================
+#=========================================================================
+
+export NNN_OPTS="aAbegHiJNorRuU0"
+
+export NNN_COLORS='#2d2d2d2d'
+
+export NNN_FCOLORS='8014e52dff8080f3a02d2da0'
+
+export NNN_PLUG='p:preview-tui'
+
+export NNN_TERMINAL=alacritty
+
+#export NNN_BMS=
+
+#NNN_ORDER=
+
+#NNN_TRASH=
+
+#NNN_MCLICK=

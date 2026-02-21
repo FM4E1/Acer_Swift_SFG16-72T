@@ -55,7 +55,7 @@
 window#waybar {
 	animation-name: fade-in;
     animation-duration: 5s;
-    background: #020202;
+    background: rgba(2, 2, 2, 0.6);
     color: #fcfcfc;
     border-bottom: 1px solid rgba(178, 23, 209, 0.6);    
 }

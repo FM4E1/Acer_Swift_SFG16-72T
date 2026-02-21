@@ -103,7 +103,7 @@ gaps outer 5
 
 client.unfocused "#bfbfbf" "#bfbfbf" "#1793d1" "#bfbfbf" "#bfbfbf"
 
-client.focused "#1793d1" "#1793d1" "#bfbfbf" "#1793d1" "#1793d1"
+client.focused "#b217d1" "#b217d1" "#b217d1" "#b217d1" "#b217d1"
 
 client.focused_inactive "#fcfcfc" "#fcfcfc" "#1793d1" "#fcfcfc" "#fcfcfc"
 

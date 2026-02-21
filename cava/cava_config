@@ -117,25 +117,25 @@ waveform = 0
 
 background = default
 
-foreground = '#1793d1'
+foreground = '#b217d1'
 
 gradient = 1
 
-gradient_color_1 = '#1793d1'
+gradient_color_1 = '#b217d1'
 
-gradient_color_2 = '#339fd6'
+gradient_color_2 = '#be17d1'
 
-gradient_color_3 = '#4faedd'
+gradient_color_3 = '#d117ae'
 
-gradient_color_4 = '#6fbce2'
+gradient_color_4 = '#d19c17'
 
-gradient_color_5 = '#91ccea'
+gradient_color_5 = '#d16717'
 
-gradient_color_6 = '#b3dbef'
+gradient_color_6 = '#c417d1'
 
-gradient_color_7 = '#d7ecf7'
+gradient_color_7 = '#7d17d1'
 
-gradient_color_8 = '#fcfcfc'
+gradient_color_8 = '#4e17d1'
 
 ; horizontal_gradient = 0
 

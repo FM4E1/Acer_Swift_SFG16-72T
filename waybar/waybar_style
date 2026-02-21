@@ -13,6 +13,8 @@
     font-family: "JetBrains Mono Nerd Font";
 
     font-size: 14px;
+
+    font-weight: 900;
 }
 
 /*======================================================================*/
@@ -55,21 +57,21 @@ window#waybar {
     animation-duration: 5s;
     background: #020202;
     color: #fcfcfc;
-    border-bottom: 1px solid #1793d1;    
+    border-bottom: 1px solid rgba(178, 23, 209, 0.6);    
 }
 
 .module {
 	border: none;
 	outline: none;
-	margin: 0;
+	margin: 4px;
 	padding: 0;
 	box-shadow: none;
 	background: transparent;
-	color: #fcfcfc;
+	color: #020202;
 }
 
 #waybar .module:hover {
-	color: #7f7f7f;
+	color: #fcfcfc;
 }
 
 button {
@@ -78,7 +80,7 @@ button {
 	outline: none;
 	margin: 2px 5px;
 	padding: 0;
-	border-radius: 0;
+	border-radius: 8;
 	color: #7f7f7f;
 
 }
@@ -91,7 +93,7 @@ button:hover {
 
 button.focused {
 	background: transparent;
-	color: #1793d1;
+	color: #b217d1;
 }
 
 /*======================================================================*/
@@ -101,28 +103,57 @@ button.focused {
 /*======================================================================*/
 /* Modules Middle ======================================================*/
 /*======================================================================*/
+#clock {
+	background-color: #b217d1;
+	padding: 4px 4px;
+	border-radius: 8px;	
+}
 
 /*======================================================================*/
 /* Modules Right =======================================================*/
 /*======================================================================*/
-/*#wireplumber.muted {
-	color: #d18017
+#wireplumber {
+	background-color: #b217d1;
+	padding: 4px 4px;
+	border-radius: 8px;	
+}
+
+wireplumber.muted {
+	background-color: #b217d1;
+	padding: 4px 4px;
+	border-radius: 8px;
 }
 
 #wireplumber.source-muted {
-	color: #d18017;
+	background-color: #b217d1;
+	padding: 4px 4px;
+	border-radius: 8px;	
+}
+
+#backlight {
+	background-color: #b217d1;
+	padding: 4px 4px;
+	border-radius: 8px;	
 }
 
 #network.wifi {
-	color: #fcfcfc;
-}*/
+	background-color: #b217d1;
+	padding: 4px 4px;
+	border-radius: 8px;
+}
 
 #network.ethernet {
 	color: #1793d1;
+	background-color: #b217d1;
+	padding: 4px 4px;
+	border-radius: 8px;
 }
 
 #network.disconnected {
 	color: #d11717;
+	background-color: #b217d1;
+	padding: 4px 4px;
+	border-radius: 8px;	
 }
 
 #network.disconnected {
@@ -131,22 +162,60 @@ button.focused {
 	animation-timing-function: linear;
 	animation-iteration-count: 5;
 	animation-direction: alternate;
+	background-color: #b217d1;
+	padding: 4px 4px;
+	border-radius: 8px;
 }
 	
 #network.disabled {
-	color: #d18017;
+	background-color: #b217d1;
+	padding: 4px 4px;
+	border-radius: 8px;
+}
+
+#memory {
+	background-color: #b217d1;
+	padding: 4px 4px;
+	border-radius: 8px;	
+}
+
+#cpu {
+	background-color: #b217d1;
+	padding: 4px 4px;
+	border-radius: 8px;	
+}
+
+#temperature {
+	background-color: #b217d1;
+	padding: 4px 4px;
+	border-radius: 8px;	
 }
 
 #temperature.warning {
 	color: #d1c117;
+	background-color: #b217d1;
+	padding: 4px 4px;
+	border-radius: 8px;
 }
 
 #temperature.critical {
 	color: #d11717;
+	background-color: #b217d1;
+	padding: 4px 4px;
+	border-radius: 8px;
+}
+
+#battery {
+	background-color: #b217d1;
+	padding: 4px 4px;
+	border-radius: 8px;	
 }
 
 #battery.warning {
 	color: #d1c117;
+	background-color: #b217d1;
+	padding: 4px 4px;
+	border-radius: 8px;
 }
 
 #battery.warning:not(.charging) {
@@ -155,6 +224,9 @@ button.focused {
 	animation-timing-function: linear;
 	animation-iteration-count: 3;
 	animation-direction: alternate;
+	background-color: #b217d1;
+	padding: 4px 4px;
+	border-radius: 8px;
 }
 
 #battery.critical {
@@ -167,8 +239,14 @@ button.focused {
 	animation-timing-function: linear;
 	animation-iteration-count: 5;
 	animation-direction: alternate;
+	background-color: #b217d1;
+	padding: 4px 4px;
+	border-radius: 8px;
 }
 
 #battery.charging {
 	color: #17c1d1;
+	background-color: #b217d1;
+	padding: 4px 4px;
+	border-radius: 8px;	
 }

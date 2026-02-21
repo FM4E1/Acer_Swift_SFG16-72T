@@ -9,7 +9,7 @@
 window {
 	background-color: rgba(2, 2, 2, 0.8);
 	border-radius: 0px;
-	border: 1px solid #1793d1;
+	border: 1px solid #b217d1;;
 	font-family: JetBrains Mono Nerd Font;
 	}
 
@@ -19,7 +19,7 @@ window {
 
 #input {
 	background-color: rgba(2, 2, 2, 0.8);
-	border: 1px solid #1793d1;
+	border: 1px solid #b217d1;
 	border-radius: 0px;
 	font-size: 14px;
 	color: #fcfcfc;
@@ -41,9 +41,9 @@ window {
 }
 
 #entry:selected {
-	background-color: rgba(23, 147, 209, 1.0);
+	background-color: rgba(178, 23, 209, 1.0);
 	border-radius: 0px;
-	border: 1px solid #1793d1;
+	border: 1px solid #b217d1;
 	outline: none;
 }
 

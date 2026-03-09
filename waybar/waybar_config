@@ -16,8 +16,6 @@
 
 "height": 30,
 
-// "width": 1280,
-
 "spacing": 10,
 
 "output": "eDP-1",
@@ -102,11 +100,13 @@
 "network": {
 "interval": 1,
 "format-wifi": " ({signalStrength}%)",
+"format-linked": " {ifname}",
 "format-ethernet": " ",
 "format-disconnected": "⚠ Disconnected",
 "format-disabled": "\uf072 ",
 "tooltip": true,
 "tooltip-format-wifi": "{essid} / {ifname} / {signaldBm}",
+"tooltip-format-linked": "{ifname}",
 "tooltip-format-ethernet": "{ifname}",
 "tooltip-format-disconnected": "⚠ Disconnected",
 "tooltip-format-disabled": "Airplane Mode: On"

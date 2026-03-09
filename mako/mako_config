@@ -31,11 +31,11 @@ on-button-right=dismiss --no-history
 #=========================================================================
 # Style Options ==========================================================
 #=========================================================================
-#font=
+font=JetBrainsMono Nerd Font 12
 
-#background-color=
+background-color=#02020299
 
-#text-color=
+text-color=#fcfcfc
 
 width=300
 
@@ -47,9 +47,9 @@ height=100
 
 #padding=
 
-#border-size=
+border-size=1
 
-#border-color=
+border-color=#fcfcfc
 
 #border-radius=
 

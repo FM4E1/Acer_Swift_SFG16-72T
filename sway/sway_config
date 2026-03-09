@@ -43,7 +43,7 @@ set $menu wofi --show drun
 #------------------------------------------------->
 # Set Wallpaper ---------------------------------->
 #------------------------------------------------->
-#output * bg ~/Downloads/example.png fill
+#output * bg ~/Downloads/wallpaper.png fill
 
 #------------------------------------------------->
 # Set Output Devices ----------------------------->
@@ -101,11 +101,11 @@ gaps inner 5
 
 gaps outer 5
 
-client.unfocused "#bfbfbf" "#bfbfbf" "#1793d1" "#bfbfbf" "#bfbfbf"
+client.unfocused "#020202" "#020202" "#1793d1" "#020202" "#020202"
 
-client.focused "#b217d1" "#b217d1" "#b217d1" "#b217d1" "#b217d1"
+client.focused "#fcfcfc" "#fcfcfc" "#fcfcfc" "#fcfcfc" "#fcfcfc"
 
-client.focused_inactive "#fcfcfc" "#fcfcfc" "#1793d1" "#fcfcfc" "#fcfcfc"
+client.focused_inactive "#020202" "#020202" "#020202" "#020202" "#020202"
 
 #=========================================================================
 # Keybindings ============================================================
